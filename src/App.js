@@ -3,6 +3,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { Row, Col } from "react-bootstrap";
+import UnderConstruction from "./UnderConstruction";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,15 +18,20 @@ const App = () => (
       </Navbar>
     </Container>
 
-    <Container fluid className="p1">
-      Be the voice of the change <br />
-      you want to see around you.
-      <div className="p2">
-        <p></p>
-        Find how your elected officals have voted in relation with climate
-        change and <u>make your voice heard.</u>
-      </div>
-    </Container>
+    {process.env.NODE_ENV === "development" 
+      ? (<UnderConstruction />) 
+      : (
+        <Container fluid className="p1">
+          Be the voice of the change <br />
+          you want to see around you.
+          <div className="p2">
+            <p></p>
+            Find how your elected officals have voted in relation with climate
+            change and <u>make your voice heard.</u>
+          </div>
+        </Container>
+      )
+    };
 
     <Container fluid className="main call">
       <Container className="inside">
@@ -47,7 +53,6 @@ const App = () => (
         </p>
       </Container>
     </Container>
-
     <div class="full-width-image">
       <img src={process.env.PUBLIC_URL + "/img/bushfire.jpg"} alt="bushfire" />
       <div class="centered">
@@ -58,14 +63,12 @@ const App = () => (
         </h1>
       </div>
     </div>
-
     <Container fluid className="main call">
       <p>
         In 2007, Australian Prime Minister Kevin Rudd called climate change 'the
         great moral challenge of our generation'.
       </p>
     </Container>
-
     <Container fluid className="main call">
       <div id="kevinquote">
         <div class="yearquote">
@@ -90,7 +93,6 @@ const App = () => (
         </div>
       </div>
     </Container>
-
     <Container fluid className="main call">
       <div>
         <p>
@@ -99,7 +101,6 @@ const App = () => (
         </p>
       </div>
     </Container>
-
     <Container fluid className="main call">
       <div>
         <p>
@@ -127,7 +128,6 @@ const App = () => (
         </p>
       </div>
     </Container>
-
     <Container fluid className="main call">
       <div className="full-width-image">
         <img
@@ -159,7 +159,6 @@ const App = () => (
         ></img>
       </div>
     </Container>
-
     <Container fluid className="however">
       <Row>
         <Col className="nopadding-left" xs={6} md={6}>
@@ -170,7 +169,6 @@ const App = () => (
         </Col>
       </Row>
     </Container>
-
     <Container fluid className="backgroundforcall call">
       <Container>
         <p>
