@@ -17,22 +17,21 @@ const App = () => (
         </Navbar.Brand>
       </Navbar>
     </Container>
-
-    {process.env.NODE_ENV === "development" 
-      ? (<UnderConstruction />) 
-      : (
-        <Container fluid className="p1">
-          Be the voice of the change <br />
-          you want to see around you.
-          <div className="p2">
-            <p></p>
-            Find how your elected officals have voted in relation with climate
-            change and <u>make your voice heard.</u>
-          </div>
-        </Container>
-      )
-    };
-
+    
+    {process.env.NODE_ENV === "production" ? (
+      <UnderConstruction />
+    ) : (
+      <Container fluid className="p1">
+        Be the voice of the change <br />
+        you want to see around you.
+        <div className="p2">
+          <p></p>
+          Find how your elected officals have voted in relation with climate
+          change and <u>make your voice heard.</u>
+        </div>
+      </Container>
+    )}
+    ;
     <Container fluid className="main call">
       <Container className="inside">
         <h1 className="paragraph-headings">
