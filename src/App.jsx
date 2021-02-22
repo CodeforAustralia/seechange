@@ -1,37 +1,43 @@
-import React from "react";
+import React from 'react';
 
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import { Row, Col } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import { Row, Col } from 'react-bootstrap';
 
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
   <>
     <Container fluid className="fluid">
       <Navbar className="App-header" expand="lg">
-        <Navbar.Brand className="title" href="#" style={{ color: "#C98030" }}>
+        <Navbar.Brand className="title" href="#" style={{ color: '#C98030' }}>
           SeeChange.
         </Navbar.Brand>
       </Navbar>
     </Container>
 
     <Container fluid className="p1">
-      Be the voice of the change <br />
+      Be the voice of the change
+      <br />
       you want to see around you.
       <div className="p2">
-        <p></p>
+        <p />
         Find how your elected officals have voted in relation with climate
-        change and <u>make your voice heard.</u>
+        change and
+        <u>make your voice heard.</u>
       </div>
     </Container>
 
     <Container fluid className="main call">
       <Container className="inside">
         <h1 className="paragraph-headings">
-          Because for more and more <br />
-          Australians climate change is <br />
+          Because for more and more
+          {' '}
+          <br />
+          Australians climate change is
+          {' '}
+          <br />
           no longer a mere question of
           <br />
           morality.
@@ -48,44 +54,45 @@ const App = () => (
       </Container>
     </Container>
 
-    <div class="full-width-image">
-      <img src={process.env.PUBLIC_URL + "/img/bushfire.jpg"} alt="bushfire" />
-      <div class="centered">
-        {" "}
+    <div className="full-width-image">
+      <img src={`${process.env.PUBLIC_URL}/img/bushfire.jpg`} alt="bushfire" />
+      <div className="centered">
+        {' '}
         <h1 className="paragraph-headings">
-          {" "}
-          It is still our greatest challenge.{" "}
+          {' '}
+          It is still our greatest challenge.
+          {' '}
         </h1>
       </div>
     </div>
 
     <Container fluid className="main call">
       <p>
-        In 2007, Australian Prime Minister Kevin Rudd called climate change 'the
-        great moral challenge of our generation'.
+        In 2007, Australian Prime Minister Kevin Rudd called climate change &apos;the
+        great moral challenge of our generation&apos;.
       </p>
     </Container>
 
     <Container fluid className="main call">
       <div id="kevinquote">
-        <div class="yearquote">
+        <div className="yearquote">
           <p>2007 -------</p>
 
           <br />
           <p id="kevruddName">Kevin Rudd</p>
         </div>
 
-        <div class="kevimage">
+        <div className="kevimage">
           <img
-            src={process.env.PUBLIC_URL + "/img/kevin_rudd.png"}
+            src={`${process.env.PUBLIC_URL}/img/kevin_rudd.png`}
             alt="Kevin Rudd"
           />
         </div>
         <div id="speechBubble">
-          <p class="bubble speech">"the great moral challenge"</p>
+          <p className="bubble speech">&apos;the great moral challenge&apos;</p>
           <div>
-            <p class="kevinquote1">#SocialChallenge</p>
-            <p class="kevinquote2">#EconomicChallenge</p>
+            <p className="kevinquote1">#SocialChallenge</p>
+            <p className="kevinquote2">#EconomicChallenge</p>
           </div>
         </div>
       </div>
@@ -103,9 +110,13 @@ const App = () => (
     <Container fluid className="main call">
       <div>
         <p>
-          But he led with morality: <br />
+          But he led with morality:
+          {' '}
+          <br />
           <h1 className="paragraph-headings">
-            this was an issue of undoubted <br />
+            this was an issue of undoubted
+            {' '}
+            <br />
             <span id="quoteunderline">ethical significance.</span>
           </h1>
         </p>
@@ -121,7 +132,7 @@ const App = () => (
 
       <div>
         <p>
-          The story of Australia's response to climate change in the years since
+          The story of Australia&apos;s response to climate change in the years since
           Mr. Rudd declared it a moral challenge is a story of missed
           opportunities.
         </p>
@@ -131,7 +142,7 @@ const App = () => (
     <Container fluid className="main call">
       <div className="full-width-image">
         <img
-          src={process.env.PUBLIC_URL + "/img/scottmorrison.jpg"}
+          src={`${process.env.PUBLIC_URL}/img/scottmorrison.jpg`}
           alt="morrison"
         />
       </div>
@@ -140,12 +151,15 @@ const App = () => (
         <br />
         <br />
         <br />
-        It's a story of false starts, broken promises and <br />
+        It&apos;s a story of false starts, broken promises and
+        {' '}
+        <br />
         bad faith arguments.
         <br />
         <br />
         <br />
-        A story of big ideas being comprised, diminished <br />
+        A story of big ideas being comprised, diminished
+        <br />
         and finally disappearing altogether.
         <br />
         <br />
@@ -154,9 +168,9 @@ const App = () => (
 
       <div className="full-width-image">
         <img
-          src={process.env.PUBLIC_URL + "/img/protests.jpg"}
+          src={`${process.env.PUBLIC_URL}/img/protests.jpg`}
           alt="protests"
-        ></img>
+        />
       </div>
     </Container>
 
@@ -166,7 +180,7 @@ const App = () => (
           HOWEVER
         </Col>
         <Col className="nopadding-right" xs={6} md={6}>
-          <div class="h-text">HOWEVER</div>
+          <div className="h-text">HOWEVER</div>
         </Col>
       </Row>
     </Container>
@@ -174,11 +188,18 @@ const App = () => (
     <Container fluid className="backgroundforcall call">
       <Container>
         <p>
-          This story <u>should not</u> end with them.
+          This story
+          {' '}
+          <u>should not</u>
+          {' '}
+          end with them.
         </p>
         <p>
-          {" "}
-          <u>We</u> believe in accountability, transparency and the <br />
+          {' '}
+          <u>We</u>
+          {' '}
+          believe in accountability, transparency and the
+          <br />
           right of all people to participate in the
           <br />
           decisions that will shape our future.
@@ -189,16 +210,27 @@ const App = () => (
           and motions, debated in the Australian House of
           <br />
           Representatives and Senate and relating to climate
-          <br /> change, carbon emissions and environmental
-          <br /> protections.
-        </p>
-        <p>
-          <u>You</u> will find how your elected officials voted and
           <br />
-          <u>their</u> track record of voting on these issues.
+          {' '}
+          change, carbon emissions and environmental
+          <br />
+          {' '}
+          protections.
         </p>
         <p>
-          <u>You</u> will find ways that you can make <u>your voice</u>
+          <u>You</u>
+          {' '}
+          will find how your elected officials voted and
+          <br />
+          <u>their</u>
+          {' '}
+          track record of voting on these issues.
+        </p>
+        <p>
+          <u>You</u>
+          {' '}
+          will find ways that you can make
+          <u>your voice</u>
           <br />
           heard and ways to make a difference.
         </p>
