@@ -7,7 +7,7 @@ export default function TopBar() {
   return (
     <Container fluid className="fluid">
       <Navbar className="App-header" expand="lg">
-        <Navbar.Brand className="title" href="#" style={{ color: '#C98030' }}>
+        <Navbar.Brand className="title" href="#" style={{ color: '#c98030' }}>
           SeeChange.
         </Navbar.Brand>
       </Navbar>
