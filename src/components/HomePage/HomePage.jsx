@@ -23,7 +23,7 @@ export default function HomePage() {
           <u>make your voice heard.</u>
         </div>
       </Container>
-      <Container fluid className="call">
+      <Container fluid className="primary-text-block">
         <h1 className="paragraph-headings">
           Because for more and more
           {' '}
@@ -37,11 +37,12 @@ export default function HomePage() {
         </h1>
 
         <p>
-          It is the very real and physical challenge of bushfires, floods
-          and droughts causing untold damage to homes, livelihoods and lives.
+          It is the very real and physical challenge of bushfires, floods and
+          droughts causing untold damage to homes, livelihoods and lives.
         </p>
         <p>
-          It is the country - and the planet - that we will leave to those who come after us.
+          It is the country - and the planet - that we will leave to those who
+          come after us.
         </p>
       </Container>
       <div className="full-width-image">
@@ -49,22 +50,21 @@ export default function HomePage() {
           src={`${process.env.PUBLIC_URL}/img/bushfire.jpg`}
           alt="bushfire"
         />
-        <div className="centered">
+        <h1 className="text-on-image paragraph-headings">
           {' '}
-          <h1 className="paragraph-headings">
-            {' '}
-            It is still our greatest challenge.
-            {' '}
-          </h1>
-        </div>
+
+          {' '}
+          It is still our greatest challenge.
+          {' '}
+        </h1>
       </div>
-      <Container fluid className="call">
+      <Container fluid className="primary-text-block">
         <p>
-          In 2007, Australian Prime Minister Kevin Rudd called climate
-          change &apos;the great moral challenge of our generation.&apos;
+          In 2007, Australian Prime Minister Kevin Rudd called climate change
+          &apos;the great moral challenge of our generation.&apos;
         </p>
       </Container>
-      <Container fluid className="call">
+      <Container fluid className="primary-text-block">
         <div id="kevinquote">
           <div className="yearquote">
             <p>2007 -------</p>
@@ -90,7 +90,7 @@ export default function HomePage() {
           </div>
         </div>
       </Container>
-      <Container fluid className="call">
+      <Container fluid className="primary-text-block">
         <div>
           <p>
             He would also label it an environmental challenge, an economic
@@ -98,7 +98,7 @@ export default function HomePage() {
           </p>
         </div>
       </Container>
-      <Container fluid className="call">
+      <Container fluid className="primary-text-block">
         <div>
           But he led with morality:
           {' '}
@@ -114,7 +114,8 @@ export default function HomePage() {
         <div>
           <p>
             An issue that was the duty of one generation to address for the
-            survival of those to come. An issue that should be unquestionably beyond politics.
+            survival of those to come. An issue that should be unquestionably
+            beyond politics.
           </p>
         </div>
 
@@ -126,7 +127,7 @@ export default function HomePage() {
           </p>
         </div>
       </Container>
-      <Container fluid className="call">
+      <Container fluid className="primary-text-block">
         <div className="full-width-image">
           <img
             src={`${process.env.PUBLIC_URL}/img/scottmorrison.jpg`}
@@ -166,11 +167,11 @@ export default function HomePage() {
             HOWEVER
           </Col>
           <Col className="nopadding-right" xs={6} md={6}>
-            <div className="h-text">HOWEVER</div>
+            <div className="reverse">HOWEVER</div>
           </Col>
         </Row>
       </Container>
-      <Container fluid className="backgroundforcall call">
+      <Container fluid className="orange-section primary-text-block">
         <Container>
           <p>
             This story
@@ -183,15 +184,15 @@ export default function HomePage() {
             {' '}
             <u>We</u>
             {' '}
-            believe in accountability, transparency and the
-            right of all people to participate in the
-            decisions that will shape our future.
+            believe in accountability, transparency and the right of
+            all people to participate in the decisions that will shape our
+            future.
           </p>
           <p>
-            On this page you will find significant legislation
-            and motions, debated in the Australian House of
-            Representatives and Senate and relating to climate
-            change, carbon emissions and environmental protections.
+            On this page you will find significant legislation and motions,
+            debated in the Australian House of Representatives and Senate and
+            relating to climate change, carbon emissions and environmental
+            protections.
           </p>
           <p>
             <u>You</u>

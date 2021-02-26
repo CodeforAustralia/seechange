@@ -1,5 +1,4 @@
 .App-header {
-  background-color: #fcf4e8;
   border-bottom: solid 2px #000;
   font-weight: 500;
   color: #c97e2e !important;
@@ -8,4 +7,9 @@
 .title {
   font-family: "Public Sans", sans-serif;
   font-weight: 800;
+}
+
+.fluid {
+  background-color: #fcf4e8;
+  padding: 10px;
 }

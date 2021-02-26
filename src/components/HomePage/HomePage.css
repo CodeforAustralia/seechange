@@ -1,13 +1,9 @@
-.fluid {
-  background-color: #fcf4e8;
-  padding: 10px;
-}
 
-.links {
+/* .links {
   font-size: 70%;
   font-family: "Public Sans", sans-serif;
   font-weight: 600;
-}
+} */
 
 .full-width-image {
   width: 100vw;
@@ -20,18 +16,18 @@
   width: 100%;
 }
 
-.heading {
+/* .heading {
   font-size: vw;
   font-family: "Public Sans", sans-serif;
   width: 750px;
   margin: 10%;
-}
+} */
 
-.top-right {
+/* .top-right {
   position: absolute;
   top: 8px;
   right: 16px;
-}
+} */
 
 /* Container for intro section */
 .orange-section {
@@ -40,6 +36,7 @@
   padding-bottom: 22%;
 }
  .orange-section h1 {
+  font-family: "Public Sans", sans-serif;
   text-align: center;
   font-size: 4vw;
   font-weight: 700;
@@ -62,30 +59,30 @@
   color: #3f342c;
 }
 
-.p3 {
+/* .p3 {
   font-size: 2vw;
   font-family: "Public Sans", sans-serif;
   width: 750px;
   text-align: center;
   color: #e68a00;
   margin: 4%;
-}
+} */
 
-.p4 {
+/* .p4 {
   font-size: 45px;
 
-  /* width: 100px; */
+  width: 100px;
   text-align: center;
   margin: 0%;
-}
+} */
 
-.p5 {
+/* .p5 {
   font-size: 45px;
   text-align: center;
   margin: 0%;
-}
+} */
 
-.call {
+.primary-text-block {
   min-height: 20vh;
   font-family: "Roboto Mono", sans-serif;
   color: #3c2f29;
@@ -96,15 +93,11 @@
   padding-right: 15% !important;
 }
 
-.backgroundforcall {
-  background-color: #fdf2e2;
-}
-
 p {
   line-height: 1.25;
 }
 
-.centered {
+.text-on-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -121,12 +114,12 @@ p {
   padding-bottom: 6.2%;
 }
 
-.sep {
+/* .sep {
   background-color: #fff;
   min-height: 20vh;
-}
+} */
 
-.footer {
+/* .footer {
   padding-top: 3% !important;
   padding-left: 5% !important;
   color: #fff;
@@ -134,9 +127,9 @@ p {
   min-height: 20vh;
   font-size: 2.1vw;
   font-family: "Roboto Mono", sans-serif;
-}
+} */
 
-.h-text {
+.reverse {
   transform: rotate(-180deg);
 }
 
