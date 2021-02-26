@@ -33,6 +33,7 @@
   right: 16px;
 }
 
+/* Container for intro section */
 .orange-section {
   background-color: #fcf4e8;
   padding-top: 12%;
@@ -51,7 +52,7 @@
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: 1px;
-  word-spacing: 1.25%;
+/*   word-spacing: 1.25%; */
 }
 
 .centered-paragraph {

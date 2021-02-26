@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import { Row, Col } from 'react-bootstrap';
+/* import Container from 'react-bootstrap/Container'; */
+import { Row, Col, Container } from 'react-bootstrap';
 import './HomePage.css';
 import ConstructionBanner from '../ConstructionBanner/ConstructionBanner';
 
@@ -23,29 +23,26 @@ export default function HomePage() {
           <u>make your voice heard.</u>
         </div>
       </Container>
-      <Container fluid className="main call">
-        <Container className="inside">
-          <h1 className="paragraph-headings">
-            Because for more and more
-            {' '}
-            <br />
-            Australians climate change is
-            {' '}
-            <br />
-            no longer a mere question of
-            <br />
-            morality.
-          </h1>
+      <Container fluid className="call">
+        <h1 className="paragraph-headings">
+          Because for more and more
+          {' '}
+          <br />
+          Australians climate change is
+          {' '}
+          <br />
+          no longer a mere question of
+          <br />
+          morality.
+        </h1>
 
-          <p>
-            It is the very real and physical challenge of bushfires, floods and
-            droughts causing untold damage to homes, livelihoods and lives.
-          </p>
-          <p>
-            It is the country - and the planet - that we will leave to those who
-            come after us.
-          </p>
-        </Container>
+        <p>
+          It is the very real and physical challenge of bushfires, floods
+          and droughts causing untold damage to homes, livelihoods and lives.
+        </p>
+        <p>
+          It is the country - and the planet - that we will leave to those who come after us.
+        </p>
       </Container>
       <div className="full-width-image">
         <img
@@ -61,13 +58,13 @@ export default function HomePage() {
           </h1>
         </div>
       </div>
-      <Container fluid className="main call">
+      <Container fluid className="call">
         <p>
-          In 2007, Australian Prime Minister Kevin Rudd called climate change
-          &apos;the great moral challenge of our generation&apos;.
+          In 2007, Australian Prime Minister Kevin Rudd called climate
+          change &apos;the great moral challenge of our generation.&apos;
         </p>
       </Container>
-      <Container fluid className="main call">
+      <Container fluid className="call">
         <div id="kevinquote">
           <div className="yearquote">
             <p>2007 -------</p>
@@ -93,7 +90,7 @@ export default function HomePage() {
           </div>
         </div>
       </Container>
-      <Container fluid className="main call">
+      <Container fluid className="call">
         <div>
           <p>
             He would also label it an environmental challenge, an economic
@@ -101,7 +98,7 @@ export default function HomePage() {
           </p>
         </div>
       </Container>
-      <Container fluid className="main call">
+      <Container fluid className="call">
         <div>
           But he led with morality:
           {' '}
@@ -117,8 +114,7 @@ export default function HomePage() {
         <div>
           <p>
             An issue that was the duty of one generation to address for the
-            survival of those to come.An issue that should be unquestionably
-            beyond politics.
+            survival of those to come. An issue that should be unquestionably beyond politics.
           </p>
         </div>
 
@@ -130,7 +126,7 @@ export default function HomePage() {
           </p>
         </div>
       </Container>
-      <Container fluid className="main call">
+      <Container fluid className="call">
         <div className="full-width-image">
           <img
             src={`${process.env.PUBLIC_URL}/img/scottmorrison.jpg`}
@@ -188,29 +184,20 @@ export default function HomePage() {
             <u>We</u>
             {' '}
             believe in accountability, transparency and the
-            <br />
             right of all people to participate in the
-            <br />
             decisions that will shape our future.
           </p>
           <p>
             On this page you will find significant legislation
-            <br />
             and motions, debated in the Australian House of
-            <br />
             Representatives and Senate and relating to climate
-            <br />
-            {' '}
-            change, carbon emissions and environmental
-            <br />
-            {' '}
-            protections.
+            change, carbon emissions and environmental protections.
           </p>
           <p>
             <u>You</u>
             {' '}
             will find how your elected officials voted and
-            <br />
+            {' '}
             <u>their</u>
             {' '}
             track record of voting on these issues.
@@ -220,7 +207,7 @@ export default function HomePage() {
             {' '}
             will find ways that you can make&nbsp;
             <u>your voice</u>
-            <br />
+            {' '}
             heard and ways to make a difference.
           </p>
         </Container>
