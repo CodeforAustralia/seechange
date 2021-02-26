@@ -1,5 +1,4 @@
 import React from 'react';
-/* import Container from 'react-bootstrap/Container'; */
 import { Row, Col, Container } from 'react-bootstrap';
 import './HomePage.css';
 import ConstructionBanner from '../ConstructionBanner/ConstructionBanner';
