@@ -1,30 +1,22 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
-import ConstructionBanner from '../ConstructionBanner/ConstructionBanner';
 import './HomePage.css';
 
 export default function HomePage() {
   return (
     <>
-      {process.env.NODE_ENV === 'production' ? (
-        <ConstructionBanner />
-      ) : (
-        <Container fluid className="p1">
-          Be the voice of the change
-          <br />
-          you want to see around you.
-          <div className="p2">
-            <p />
-            Find how your elected officals have voted in relation with climate
-            change and
-            {' '}
-            <u>make your voice heard.</u>
-          </div>
-        </Container>
-      )}
-      {' '}
-      ;
+      <Container fluid className="p1">
+        Be the voice of the change
+        <br />
+        you want to see around you.
+        <div className="p2">
+          Find how your elected officals have voted in relation with climate
+          change and
+          {' '}
+          <u>make your voice heard.</u>
+        </div>
+      </Container>
       <Container fluid className="main call">
         <Container className="inside">
           <h1 className="paragraph-headings">
