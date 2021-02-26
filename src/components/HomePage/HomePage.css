@@ -33,17 +33,17 @@
   right: 16px;
 }
 
-.p1 {
-  font-size: 4vw;
-  text-align: center;
+.orange-section {
   background-color: #fcf4e8;
-  font-family: "Public Sans", sans-serif;
   padding-top: 12%;
   padding-bottom: 22%;
-  color: #c98030;
-  font-weight: 700;
-  line-height: 1.25;
 }
+ .orange-section h1 {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 700;
+  color: #c98030;
+ }
 
 .paragraph-headings {
   font-size: 4vw;
@@ -54,7 +54,7 @@
   word-spacing: 1.25%;
 }
 
-.p2 {
+.centered-paragraph {
   font-size: 1.5vw;
   text-align: center;
   font-weight: 500;

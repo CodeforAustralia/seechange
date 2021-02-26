@@ -10,11 +10,13 @@ export default function HomePage() {
   }
   return (
     <>
-      <Container fluid className="p1">
-        Be the voice of the change
-        <br />
-        you want to see around you.
-        <div className="p2">
+      <Container fluid className="orange-section">
+        <h1>
+          Be the voice of the change
+          <br />
+          you want to see around you.
+        </h1>
+        <div className="centered-paragraph">
           Find how your elected officals have voted in relation with climate
           change and
           {' '}
