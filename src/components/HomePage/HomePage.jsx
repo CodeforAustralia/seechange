@@ -2,8 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 import './HomePage.css';
+import ConstructionBanner from '../ConstructionBanner/ConstructionBanner';
 
 export default function HomePage() {
+  if (process.env.NODE_ENV === 'production') {
+    return <ConstructionBanner />;
+  }
   return (
     <>
       <Container fluid className="p1">
