@@ -2,22 +2,27 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 import './HomePage.css';
+import ConstructionBanner from '../ConstructionBanner/ConstructionBanner';
 
 export default function HomePage() {
+  if (process.env.NODE_ENV === 'production') {
+    return <ConstructionBanner />;
+  }
   return (
     <>
-      <Container fluid className="p1">
-        Be the voice of the change
-        <br />
-        you want to see around you.
-        <div className="p2">
-          <p />
+      <Container fluid className="orange-section">
+        <h1>
+          Be the voice of the change
+          <br />
+          you want to see around you.
+        </h1>
+        <div className="centered-paragraph">
           Find how your elected officals have voted in relation with climate
           change and
+          {' '}
           <u>make your voice heard.</u>
         </div>
       </Container>
-
       <Container fluid className="main call">
         <Container className="inside">
           <h1 className="paragraph-headings">
@@ -42,9 +47,11 @@ export default function HomePage() {
           </p>
         </Container>
       </Container>
-
       <div className="full-width-image">
-        <img src={`${process.env.PUBLIC_URL}/img/bushfire.jpg`} alt="bushfire" />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/bushfire.jpg`}
+          alt="bushfire"
+        />
         <div className="centered">
           {' '}
           <h1 className="paragraph-headings">
@@ -54,14 +61,12 @@ export default function HomePage() {
           </h1>
         </div>
       </div>
-
       <Container fluid className="main call">
         <p>
-          In 2007, Australian Prime Minister Kevin Rudd called climate change &apos;the
-          great moral challenge of our generation&apos;.
+          In 2007, Australian Prime Minister Kevin Rudd called climate change
+          &apos;the great moral challenge of our generation&apos;.
         </p>
       </Container>
-
       <Container fluid className="main call">
         <div id="kevinquote">
           <div className="yearquote">
@@ -78,7 +83,9 @@ export default function HomePage() {
             />
           </div>
           <div id="speechBubble">
-            <p className="bubble speech">&apos;the great moral challenge&apos;</p>
+            <p className="bubble speech">
+              &apos;the great moral challenge&apos;
+            </p>
             <div>
               <p className="kevinquote1">#SocialChallenge</p>
               <p className="kevinquote2">#EconomicChallenge</p>
@@ -86,7 +93,6 @@ export default function HomePage() {
           </div>
         </div>
       </Container>
-
       <Container fluid className="main call">
         <div>
           <p>
@@ -95,7 +101,6 @@ export default function HomePage() {
           </p>
         </div>
       </Container>
-
       <Container fluid className="main call">
         <div>
           But he led with morality:
@@ -119,13 +124,12 @@ export default function HomePage() {
 
         <div>
           <p>
-            The story of Australia&apos;s response to climate change in the years since
-            Mr. Rudd declared it a moral challenge is a story of missed
-            opportunities.
+            The story of Australia&apos;s response to climate change in the
+            years since Mr. Rudd declared it a moral challenge is a story of
+            missed opportunities.
           </p>
         </div>
       </Container>
-
       <Container fluid className="main call">
         <div className="full-width-image">
           <img
@@ -160,7 +164,6 @@ export default function HomePage() {
           />
         </div>
       </Container>
-
       <Container fluid className="however">
         <Row>
           <Col className="nopadding-left" xs={6} md={6}>
@@ -171,7 +174,6 @@ export default function HomePage() {
           </Col>
         </Row>
       </Container>
-
       <Container fluid className="backgroundforcall call">
         <Container>
           <p>
