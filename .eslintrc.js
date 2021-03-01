@@ -5,30 +5,31 @@ module.exports = {
     jest: true,
   },
   extends: [
-    "plugin:react/recommended",
-    "airbnb",
-    "plugin:react-hooks/recommended",
+    'plugin:react/recommended',
+    'airbnb',
+    'plugin:react-hooks/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 12,
-    sourceType: "module",
+    sourceType: 'module',
   },
-  plugins: ["react"],
+  plugins: ['react'],
   rules: {
-    "react/react-in-jsx-scope": 0,
+    'react/react-in-jsx-scope': 0,
   },
   overrides: [
     {
-      files: ["cypress/**/*"],
-      plugins: ["cypress"],
+      files: ['cypress/**/*'],
+      plugins: ['cypress'],
       env: {
-        "cypress/globals": true,
+        'cypress/globals': true,
       },
       rules: {
-        "import/no-extraneous-dependencies": 0,
+        'import/no-extraneous-dependencies': 0,
+        'linebreak-style': 0,
       },
     },
   ],
