@@ -21,4 +21,5 @@ function ConstructionBanner() {
     </Container>
   );
 }
+
 export default ConstructionBanner;
