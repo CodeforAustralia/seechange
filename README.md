@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center"><a href="https://codeforaustralia.github.io/seechange/">SeeChange (aka. Civic Makers Climate-Change) Project</a></h1>
+  <h1 align="center"><a href="https://seechange.codeforaustralia.org/">SeeChange (aka. Civic Makers Climate-Change) Project</a></h1>
 </p>
 
 ## Table of Contents
