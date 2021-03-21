@@ -1,12 +1,14 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import './HomePage.css';
 import ConstructionBanner from '../ConstructionBanner/ConstructionBanner';
+
+import './HomePage.css';
 
 export default function HomePage() {
   if (process.env.NODE_ENV === 'production') {
     return <ConstructionBanner />;
   }
+
   return (
     <>
       <Container fluid className="orange-section">
