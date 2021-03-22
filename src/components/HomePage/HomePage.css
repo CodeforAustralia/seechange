@@ -30,17 +30,21 @@
 } */
 
 /* Container for intro section */
-.orange-section {
+.coloured-background {
   background-color: #fcf4e8;
   padding-top: 12%;
   padding-bottom: 22%;
 }
 
-.orange-section h1 {
+.coloured-background h1 {
   text-align: center;
   font-size: 4vw;
   font-weight: 700;
   color: #c98030;
+}
+
+.white-background {
+  background-color: #fff;
 }
 
 .paragraph-headings {
@@ -107,28 +111,15 @@ p {
   white-space: nowrap;
 }
 
+/* .however, .reverse, .nopadding-left & nopadding-right go together*/
 .however {
-  color: #fdf2e2;
+  background-color: #fff;
+  color: #fcf4e8;
   font-family: "Roboto Mono", sans-serif;
   font-size: 10.5vw;
   padding-top: 6.2%;
   padding-bottom: 6.2%;
 }
-
-/* .sep {
-  background-color: #fff;
-  min-height: 20vh;
-} */
-
-/* .footer {
-  padding-top: 3% !important;
-  padding-left: 5% !important;
-  color: #fff;
-  background-color: #3c2f29;
-  min-height: 20vh;
-  font-size: 2.1vw;
-  font-family: "Roboto Mono", sans-serif;
-} */
 
 .reverse {
   transform: rotate(-180deg);
@@ -145,6 +136,21 @@ p {
   text-align: left;
   letter-spacing: 2.5px;
 }
+
+/* .sep {
+  background-color: #fff;
+  min-height: 20vh;
+} */
+
+/* .footer {
+  padding-top: 3% !important;
+  padding-left: 5% !important;
+  color: #fff;
+  background-color: #3c2f29;
+  min-height: 20vh;
+  font-size: 2.1vw;
+  font-family: "Roboto Mono", sans-serif;
+} */
 
 .yearquote p {
   position: absolute;

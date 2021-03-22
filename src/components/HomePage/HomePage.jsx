@@ -11,7 +11,7 @@ export default function HomePage() {
 
   return (
     <>
-      <Container fluid className="orange-section">
+      <Container fluid className="coloured-background">
         <h1>
           Be the voice of the change
           <br />
@@ -24,7 +24,7 @@ export default function HomePage() {
           <u>make your voice heard.</u>
         </div>
       </Container>
-      <Container fluid className="primary-text-block">
+      <Container fluid className="primary-text-block white-background">
         <h1 className="paragraph-headings">
           Because for more and more
           {' '}
@@ -53,19 +53,17 @@ export default function HomePage() {
         />
         <h1 className="text-on-image paragraph-headings">
           {' '}
-
-          {' '}
           It is still our greatest challenge.
           {' '}
         </h1>
       </div>
-      <Container fluid className="primary-text-block">
+      <Container fluid className="primary-text-block white-background">
         <p>
           In 2007, Australian Prime Minister Kevin Rudd called climate change
           &apos;the great moral challenge of our generation.&apos;
         </p>
       </Container>
-      <Container fluid className="primary-text-block">
+      <Container fluid className="primary-text-block white-background">
         <div id="kevinquote">
           <div className="yearquote">
             <p>2007 -------</p>
@@ -91,7 +89,7 @@ export default function HomePage() {
           </div>
         </div>
       </Container>
-      <Container fluid className="primary-text-block">
+      <Container fluid className="primary-text-block white-background">
         <div>
           <p>
             He would also label it an environmental challenge, an economic
@@ -99,7 +97,7 @@ export default function HomePage() {
           </p>
         </div>
       </Container>
-      <Container fluid className="primary-text-block">
+      <Container fluid className="primary-text-block white-background">
         <div>
           But he led with morality:
           {' '}
@@ -128,7 +126,7 @@ export default function HomePage() {
           </p>
         </div>
       </Container>
-      <Container fluid className="primary-text-block">
+      <Container fluid className="primary-text-block white-background">
         <div className="full-width-image">
           <img
             src={`${process.env.PUBLIC_URL}/img/scottmorrison.jpg`}
@@ -172,47 +170,43 @@ export default function HomePage() {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="orange-section primary-text-block">
-        <Container>
-          <p>
-            This story
-            {' '}
-            <u>should not</u>
-            {' '}
-            end with them.
-          </p>
-          <p>
-            {' '}
-            <u>We</u>
-            {' '}
-            believe in accountability, transparency and the right of
-            all people to participate in the decisions that will shape our
-            future.
-          </p>
-          <p>
-            On this page you will find significant legislation and motions,
-            debated in the Australian House of Representatives and Senate and
-            relating to climate change, carbon emissions and environmental
-            protections.
-          </p>
-          <p>
-            <u>You</u>
-            {' '}
-            will find how your elected officials voted and
-            {' '}
-            <u>their</u>
-            {' '}
-            track record of voting on these issues.
-          </p>
-          <p>
-            <u>You</u>
-            {' '}
-            will find ways that you can make&nbsp;
-            <u>your voice</u>
-            {' '}
-            heard and ways to make a difference.
-          </p>
-        </Container>
+      <Container fluid className="coloured-background primary-text-block">
+        <p>
+          This story
+          {' '}
+          <u>should not</u>
+          {' '}
+          end with them.
+        </p>
+        <p>
+          {' '}
+          <u>We</u>
+          {' '}
+          believe in accountability, transparency and the right of all
+          people to participate in the decisions that will shape our future.
+        </p>
+        <p>
+          On this page you will find significant legislation and motions,
+          debated in the Australian House of Representatives and Senate and
+          relating to climate change, carbon emissions and environmental
+          protections.
+        </p>
+        <p>
+          <u>You</u>
+          {' '}
+          will find how your elected officials voted and
+          <u>their</u>
+          {' '}
+          track record of voting on these issues.
+        </p>
+        <p>
+          <u>You</u>
+          {' '}
+          will find ways that you can make&nbsp;
+          <u>your voice</u>
+          {' '}
+          heard and ways to make a difference.
+        </p>
       </Container>
     </>
   );
